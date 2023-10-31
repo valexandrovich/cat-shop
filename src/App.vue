@@ -24,9 +24,9 @@ const cats = ref([
   </div>
 
 
-  <div class="flex flex-row flex-wrap gap-4">
+  <div class="grid grid-cols-2">
     <div v-for="cat in cats" :key="cat.id" class="flex flex-col justify-center bg-gray-200 p-2">
-      <img :src="cat.img" alt="" class="w-32 h-32">
+      <img :src="cat.img" alt="" class="w-full h-full">
       <span class="text-md">Ім'я: <strong>{{cat.name}}</strong></span>
       <span class="text-sm">Вік <strong>{{cat.age}}</strong> років</span>
       <span class="text-sm">Вага <strong>{{cat.weight}}</strong> кг</span>
