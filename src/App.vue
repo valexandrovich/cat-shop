@@ -6,10 +6,10 @@ import {ref} from "vue";
 const cats = ref([
 
 
-  {id: 1, name: 'Пуська', age: 3, weight: 5,  img: '/cat1.png'},
-  {id: 2, name: 'Муська', age: 6, weight: 7,  img: '/cat2.png'},
-  {id: 3, name: 'Лапуська', age: 5, weight: 5,  img: '/cat3.png'},
-  {id: 4, name: 'Вадим', age: 76, weight: 77,  img: '/cat4.png'},
+  {id: 1, name: 'Пуська', age: 3, weight: 5,  img: 'cat1.png'},
+  {id: 2, name: 'Муська', age: 6, weight: 7,  img: 'cat2.png'},
+  {id: 3, name: 'Лапуська', age: 5, weight: 5,  img: 'cat3.png'},
+  {id: 4, name: 'Вадим', age: 76, weight: 77,  img: 'cat4.png'},
 
 ])
 
