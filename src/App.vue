@@ -3,7 +3,7 @@
 
 import {reactive, ref} from "vue";
 
-const isBuckerCollapsed = ref(true)
+const isBuckerCollapsed = ref(false)
 
 const cats = ref([
 
