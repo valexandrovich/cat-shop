@@ -8,6 +8,12 @@ import router from './router'
 
 const app = createApp(App)
 
+
+
+import { FontAwesomeIcon } from '@/utils/font.icons'
+app.component('font-awesome-icon', FontAwesomeIcon)
+
+
 app.use(createPinia())
 app.use(router)
 
